@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Dominio Total del Pectoral: Rutina de 4 Triseries Explosivas - TrainerSlide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', sans-serif; background: #000; color: white; }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #111; }
+      ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #555; }
+    </style>
+</head>
+<body class="h-screen w-screen overflow-hidden flex flex-col bg-black">
+    <!-- Header -->
+    <div class="bg-gray-900/90 backdrop-blur p-3 md:p-4 border-b border-gray-800 flex justify-between items-center z-50 shrink-0">
+        <h1 class="font-bold text-base md:text-lg truncate mr-2">
+            TRAINER<span class="text-yellow-400">SLIDE</span> 
+            <span class="text-gray-500 text-xs md:text-sm font-normal hidden sm:inline">| Dominio Total del Pectoral: Rutina de 4 Triseries Explosivas</span>
+        </h1>
+        <div class="flex gap-2 shrink-0">
+            <button onclick="prevSlide()" id="btnPrev" class="px-3 py-1.5 md:px-4 md:py-2 bg-gray-800 rounded-full hover:bg-gray-700 disabled:opacity-30 text-xs md:text-sm transition-colors font-medium">Ant</button>
+            <span id="counter" class="px-2 py-1.5 md:px-3 md:py-2 font-mono text-yellow-400 text-xs md:text-sm flex items-center">1 / 1</span>
+            <button onclick="nextSlide()" id="btnNext" class="px-3 py-1.5 md:px-4 md:py-2 bg-yellow-400 text-black font-bold rounded-full hover:bg-yellow-300 disabled:opacity-30 text-xs md:text-sm transition-colors">Sig</button>
+        </div>
+    </div>
+
+    <!-- Main Slide Area -->
+    <div id="slideContainer" class="flex-1 flex items-center justify-center p-0 md:p-4 relative w-full overflow-hidden">
+        <!-- Content injected here by JS -->
+    </div>
+
+    <script>
+        const workout = {"title":"Dominio Total del Pectoral: Rutina de 4 Triseries Explosivas","subtitle":"Construye un pecho fuerte, denso y definido con esta metodología avanzada.","slides":[{"title":"Calentamiento Dinámico","exercises":[{"name":"Brazos en Círculo (hacia adelante y atrás)","reps":"15-20 por dirección","sets":1,"notes":"Movimientos suaves para movilizar las articulaciones del hombro.","id":"f975ecd8-4e11-4b5c-bbb0-901b08e3f865","videoUrl":"https://drive.google.com/file/d/1P4GiXfy7ojLBb5Z1CJL8JBWHnGdG6OWV/view?usp=drive_link","isVideoLoading":false},{"name":"Aperturas con Banda de Resistencia","reps":"15-20","sets":1,"notes":"Activa los músculos del pecho y los manguitos rotadores.","id":"f401cb85-5337-44f0-81e6-72f0c1743368","videoUrl":"https://drive.google.com/file/d/1UPNnUHLI1yChyU_2gi_i_hCqu0O-WYdM/view?usp=drive_link","isVideoLoading":false},{"name":"Estiramiento de Pecho en Marco de Puerta","reps":"30 segundos","sets":1,"notes":"Prepara la fascia muscular para el trabajo intenso.","id":"641be835-ec3d-4dd5-8ab6-7c982beefbca","videoUrl":"https://drive.google.com/file/d/1a0EUBlPHijF94ASOpRB8-3ln1uy1AkTp/view?usp=drive_link","isVideoLoading":false}],"id":"dd359154-5eb8-4d95-b978-8215cdb1be32"},{"title":"Triserie 1: Énfasis Pectoral Superior y Amplitud","exercises":[{"name":"Press Inclinado con Mancuernas","reps":"8-10","sets":3,"notes":"Concéntrate en el estiramiento en la parte inferior y la contracción en la superior. Controla el peso.","id":"b4bbbb6d-e16d-4ad7-8d86-2f2ae4f36f54","videoUrl":"","isVideoLoading":false},{"name":"Aperturas Inclinadas con Mancuernas","reps":"12-15","sets":3,"notes":"Mantén una ligera flexión en los codos. Siente el estiramiento profundo y la contracción al cerrar.","id":"536e6e09-0a16-4100-90ec-68259fae709b","videoUrl":"","isVideoLoading":false},{"name":"Flexiones Inclinadas (pies en el suelo)","reps":"Al fallo (máximas repeticiones)","sets":3,"notes":"Usa una cadencia controlada, sintiendo la quemazón en la parte superior del pecho.","id":"2f9f068c-0ff8-4f69-8c8b-a9012d1c2511","videoUrl":"","isVideoLoading":false}],"id":"a94fb39d-ef42-414d-98db-cf956e9097f2"},{"title":"Triserie 2: Potencia y Densidad en el Plano Medio","exercises":[{"name":"Press de Banca con Barra (Banco Plano)","reps":"6-8","sets":3,"notes":"Estabiliza los hombros, empuja con fuerza explosiva. Retrae las escápulas y mantén un ligero arco.","id":"0bffea86-a560-42c6-9b87-fea2af8f3cf9","videoUrl":"","isVideoLoading":false},{"name":"Fondos en Paralelas (Dips - enfoque pectoral)","reps":"8-12","sets":3,"notes":"Inclina el torso hacia adelante y abre los codos para maximizar el trabajo del pecho.","id":"ee12d406-8de1-45d1-bdf0-ee28586e63c4","videoUrl":"","isVideoLoading":false},{"name":"Pullover con Mancuerna","reps":"10-15","sets":3,"notes":"Estira bien los pectorales en la parte inferior del movimiento, siente cómo se expande la caja torácica.","id":"1518fb19-cf1f-4b7e-bcd4-7b2daf8e74be","videoUrl":"","isVideoLoading":false}],"id":"b977e072-4396-4a4b-b243-cb6e6dbb9e7a"},{"title":"Triserie 3: Definición y Separación Pectoral Inferior/Interno","exercises":[{"name":"Press Declinado con Mancuernas","reps":"10-12","sets":3,"notes":"Enfócate en la contracción del pectoral inferior. Controla el descenso y empuja hacia el centro y arriba.","id":"04582478-8803-46f0-ac96-d38a7f0c9ff6","videoUrl":"","isVideoLoading":false},{"name":"Cruce de Poleas (Cable Crossover - de arriba hacia abajo)","reps":"15-20","sets":3,"notes":"Cruza las manos ligeramente al final del movimiento para una máxima contracción interna del pecho.","id":"d2d83a64-24f9-4150-a56a-86212e062854","videoUrl":"","isVideoLoading":false},{"name":"Flexiones con Agarre Cerrado","reps":"Al fallo (máximas repeticiones)","sets":3,"notes":"Mantén los codos pegados al cuerpo, enfocando la tensión en la parte interna del pecho y tríceps.","id":"fab92e37-b557-428d-9fae-bffdd8978c34","videoUrl":"","isVideoLoading":false}],"id":"3177b688-e98b-4eb9-90e6-a67dc4eab2df"},{"title":"Triserie 4: Congestión y Acabado Muscular","exercises":[{"name":"Máquina Pec Deck (Aperturas)","reps":"15-20","sets":3,"notes":"Concéntrate en la contracción máxima y sostenida por un segundo en el punto álgido del movimiento.","id":"7ab64f6f-bc1c-414e-8a69-fc5bd53ee52f","videoUrl":"","isVideoLoading":false},{"name":"Press con Mancuernas con Agarre Neutro (Banco Plano)","reps":"12-15","sets":3,"notes":"Palmas enfrentadas. Esto puede enfocarse en la parte interna del pecho y es más amable con los hombros.","id":"e5956ec9-944b-46c8-892e-bbabfdb9873a","videoUrl":"","isVideoLoading":false},{"name":"Flexiones Estándar (Push-ups)","reps":"Al fallo (máximas repeticiones)","sets":3,"notes":"Una forma clásica de terminar, empuja hasta el agotamiento muscular. Mantén buena forma.","id":"e6582204-d3ac-46f4-9936-b056814f7acc","videoUrl":"","isVideoLoading":false}],"id":"709b1347-0dcf-4c5e-865b-70cf1f7508c5"},{"title":"Enfriamiento y Estiramiento","exercises":[{"name":"Estiramiento Pectoral Estático (varias posiciones)","reps":"30 segundos por lado","sets":2,"notes":"Estira suavemente el pecho para promover la recuperación y flexibilidad. Respira profundamente.","id":"75e210b5-70f0-4435-95b1-28f5955b03c7","videoUrl":"","isVideoLoading":false}],"id":"901b8f49-aa16-4d83-a0e1-f097e87e60bc"}]};
+        let currentIndex = 0;
+
+        function getEmbedUrl(url) {
+            if (!url) return null;
+            // Google Drive - Returns direct stream link instead of preview
+            const driveRegex = /drive\.google\.com\/file\/d\/([-_\w]+)/;
+            const driveMatch = url.match(driveRegex);
+            if (driveMatch) return "https://drive.google.com/uc?export=download&id=" + driveMatch[1];
+
+            // YouTube
+            const ytRegex = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=|shorts\/)([^#&?]*).*/;
+            const ytMatch = url.match(ytRegex);
+            if (ytMatch && ytMatch[2].length === 11) {
+                return "https://www.youtube.com/embed/" + ytMatch[2] + "?autoplay=1&mute=1&loop=1&playlist=" + ytMatch[2] + "&controls=1&playsinline=1";
+            }
+            
+            return url;
+        }
+
+        function renderSlide(index, specificExerciseIdx = null) {
+            currentIndex = index;
+            const slide = workout.slides[index];
+            const container = document.getElementById('slideContainer');
+            
+            // Logic to determine active video
+            let activeExIndex = 0;
+            if (specificExerciseIdx !== null) {
+                activeExIndex = specificExerciseIdx;
+            } else {
+                const firstWithVideoIdx = slide.exercises.findIndex(ex => ex.videoUrl);
+                activeExIndex = firstWithVideoIdx !== -1 ? firstWithVideoIdx : 0;
+            }
+            const activeEx = slide.exercises[activeExIndex];
+            const videoUrl = activeEx.videoUrl;
+            const embedUrl = getEmbedUrl(videoUrl);
+
+            let mediaHtml = '';
+            if (embedUrl) {
+                // Only use iframe for YouTube. Drive (converted to uc?export) and regular files use video tag.
+                if (embedUrl.includes('youtube.com')) {
+                    mediaHtml = '<iframe src="' + embedUrl + '" class="w-full h-full object-cover" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                } else {
+                     mediaHtml = '<video src="' + embedUrl + '" class="w-full h-full object-cover" controls playsinline loop autoplay muted></video>';
+                }
+            } else {
+                mediaHtml = '<div class="w-full h-full flex items-center justify-center bg-gray-900 text-gray-600 flex-col p-6"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg><p class="mt-2 text-xs">Sin video</p></div>';
+            }
+
+            const exercisesHtml = slide.exercises.map((ex, i) => {
+                const isActive = i === activeExIndex;
+                const textClass = isActive ? 'text-yellow-400' : 'text-white hover:text-yellow-200';
+                const numberClass = isActive ? 'text-yellow-400' : 'text-white/20';
+                const bgClass = isActive ? 'bg-gray-900/50' : '';
+
+                return `
+                <div class="flex items-start gap-3 md:gap-4 mb-4 md:mb-6 group cursor-pointer p-2 rounded transition-colors ${bgClass}" onclick="renderSlide(${index}, ${i})">
+                    <span class="text-3xl md:text-4xl font-black ${numberClass} leading-none select-none transition-colors">${i + 1}</span>
+                    <div class="flex-1">
+                        <h4 class="text-lg md:text-xl font-bold ${textClass} leading-tight transition-colors">${ex.name}</h4>
+                        <div class="mt-1 flex items-center gap-3 text-gray-300 font-medium text-sm md:text-base">
+                            <span class="text-yellow-200">${ex.reps} reps</span>
+                            <span class="text-gray-600">|</span>
+                            <span class="text-yellow-200">${ex.sets} series</span>
+                        </div>
+                        ${ex.notes ? '<p class="text-xs text-gray-500 mt-1 italic leading-relaxed">' + ex.notes + '</p>' : ''}
+                    </div>
+                </div>
+            `}).join('');
+
+            container.innerHTML = `
+                <div class="w-full md:max-w-6xl h-full md:h-auto md:aspect-video bg-black md:border border-gray-800 md:shadow-2xl flex flex-col md:flex-row overflow-hidden">
+                    <!-- Top/Left: Video -->
+                    <div class="w-full md:w-5/12 aspect-video md:aspect-auto md:h-full bg-gray-900 relative border-b md:border-b-0 md:border-r border-gray-800 shrink-0">
+                        ${mediaHtml}
+                         ${slide.exercises.length > 1 && embedUrl ? '<div class="absolute bottom-2 left-2 md:bottom-4 md:left-4 bg-black/70 px-2 py-1 md:px-3 rounded text-[10px] md:text-xs text-yellow-400 font-bold z-10 max-w-[90%] truncate">' + activeEx.name + '</div>' : ''}
+                    </div>
+                    <!-- Bottom/Right: Content -->
+                    <div class="w-full md:w-7/12 flex-1 md:h-full p-4 md:p-8 flex flex-col relative overflow-y-auto">
+                        <div class="absolute top-4 right-4 md:top-6 md:right-8 w-10 h-10 md:w-16 md:h-16 rounded-full bg-yellow-400 text-black flex items-center justify-center text-xl md:text-4xl font-black shadow-lg z-20">
+                            ${index + 1}
+                        </div>
+                        <div class="mb-4 md:mb-6 pr-14 md:pr-20">
+                            <h3 class="text-yellow-400 font-bold tracking-wider text-[10px] md:text-xs uppercase mb-1">TRAINER SLIDE</h3>
+                            <h2 class="text-xl md:text-2xl font-black text-white uppercase leading-tight">${slide.title}</h2>
+                        </div>
+                        <div class="space-y-1">
+                            ${exercisesHtml}
+                        </div>
+                        
+                        <!-- Mobile bottom spacer -->
+                        <div class="h-10 md:hidden"></div>
+                    </div>
+                </div>
+            `;
+
+            // Update controls
+            document.getElementById('counter').innerText = (index + 1) + ' / ' + workout.slides.length;
+            document.getElementById('btnPrev').disabled = index === 0;
+            document.getElementById('btnNext').disabled = index === workout.slides.length - 1;
+        }
+
+        function nextSlide() {
+            if (currentIndex < workout.slides.length - 1) {
+                currentIndex++;
+                renderSlide(currentIndex);
+            }
+        }
+
+        function prevSlide() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderSlide(currentIndex);
+            }
+        }
+
+        renderSlide(0);
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+        });
+    </script>
+</body>
+</html>
+  
